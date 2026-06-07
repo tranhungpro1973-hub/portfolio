@@ -1,0 +1,239 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio Nguyễn Thu Uyên</title>
+<style>
+/* ===== MENU ===== */
+
+.navbar{
+    position:sticky;
+    top:0;
+    z-index:1000;
+
+    background:#ffffff;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:15px 50px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.08);
+}
+
+.logo{
+    font-size:22px;
+    font-weight:bold;
+    color:#222;
+}
+
+.menu{
+    display:flex;
+    gap:30px;
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+.menu a{
+    text-decoration:none;
+    color:#333;
+    font-weight:600;
+    transition:0.3s;
+}
+
+.menu a:hover{
+    color:#2563eb;
+}
+
+/* Mobile */
+
+@media(max-width:768px){
+
+    .navbar{
+        flex-direction:column;
+        gap:15px;
+    }
+
+    .menu{
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:15px;
+    }
+
+}
+body{font-family:Arial,sans-serif;margin:0;background:#f8f6f1;color:#222}
+header{
+    .profile-page{
+    min-height:100vh;
+    padding:80px 10%;
+    background:linear-gradient(135deg,#fffdf5,#fff9e6);
+    display:flex;
+    align-items:center;
+}
+
+.hero-content h1{
+    font-size:64px;
+    margin:0;
+}
+
+.subtitle{
+    font-size:20px;
+    margin-top:15px;
+}
+
+.description{
+    max-width:850px;
+    line-height:1.6;
+    margin-top:18px;
+}
+}
+h1{font-size:56px;margin:0}
+section{padding:60px 10%}
+.project{background:white;padding:25px;border-radius:12px;margin-bottom:40px;box-shadow:0 2px 10px rgba(0,0,0,.08)}
+.btn{display:inline-block;padding:10px 18px;background:#222;color:white;text-decoration:none;border-radius:8px}
+.evidence{margin-top:25px;border-top:1px solid #ddd;padding-top:20px}
+.evidence-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:15px}
+.placeholder{height:220px;border:2px dashed #bbb;border-radius:10px;display:flex;align-items:center;justify-content:center;color:#666}
+footer{padding:40px;text-align:center;background:#222;color:white}
+</style>
+</head>
+<body>
+<nav class="navbar">
+    <div class="logo"> E-Portfolio</div>
+
+    <ul class="menu">
+    <li><a href="#trangchu">Trang chủ</a></li>
+    <li><a href="#gioithieu">Giới thiệu</a></li>
+    <li><a href="#duan">Dự án</a></li>
+    <li><a href="#tongket">Tổng kết</a></li>
+    <li><a href="#lienhe">Liên hệ</a></li>
+</ul>
+</nav>
+<header>
+<section id="trangchu" class="profile-page">
+    <div class="hero-content">
+        <h1>Nguyễn Thu Uyên</h1>
+
+        <p class="subtitle">
+            Sinh viên Công nghệ thông tin ứng dụng
+        </p>
+
+        <p class="description">
+            Đam mê lập trình, trí tuệ nhân tạo và phát triển phần mềm.
+            Đây là website Portfolio lưu trữ các sản phẩm học tập và dự án cá nhân.
+        </p>
+    </div>
+</section>
+</header>
+
+<section id="gioithieu">
+<h2>Giới thiệu</h2>
+<p>Portfolio môn Kỹ năng số, tổng hợp các sản phẩm học tập và minh chứng thực hiện.</p>
+</section>
+
+<section id="duan">
+<h2>Dự án học tập</h2>
+
+
+<div class="project">
+<h3>Bài 1: Máy tính và thiết bị ngoại vi</h3>
+<p>Mô tả ngắn về nội dung bài học và sản phẩm thực hiện.</p>
+<a class="btn" href="https://drive.google.com/file/d/1S7bZ7RF9bc14eUlBfdFuxM8pr6dDkWic/view?usp=drive_link" target="_blank">Xem sản phẩm</a>
+
+<div class="evidence">
+<h4>Minh chứng thực hiện</h4>
+<div class="evidence-grid">
+<div class="placeholder">Ảnh minh chứng 1</div>
+<div class="placeholder">Ảnh minh chứng 2</div>
+<div class="placeholder">Ảnh minh chứng 3</div>
+</div>
+</div>
+</div>
+
+<div class="project">
+<h3>Bài 2: Khai thác dữ liệu và thông tin</h3>
+<p>Mô tả ngắn về nội dung bài học và sản phẩm thực hiện.</p>
+<a class="btn" href="https://drive.google.com/file/d/1TxbRIF3Y5Fx9N_yn8GozYw1jvM2xAbRA/view?usp=drive_link" target="_blank">Xem sản phẩm</a>
+
+<div class="evidence">
+<h4>Minh chứng thực hiện</h4>
+<div class="evidence-grid">
+<div class="placeholder">Ảnh minh chứng 1</div>
+<div class="placeholder">Ảnh minh chứng 2</div>
+<div class="placeholder">Ảnh minh chứng 3</div>
+</div>
+</div>
+</div>
+
+<div class="project">
+<h3>Bài 3: Tổng quan về trí tuệ nhân tạo</h3>
+<p>Mô tả ngắn về nội dung bài học và sản phẩm thực hiện.</p>
+<a class="btn" href="https://drive.google.com/file/d/1fnuVXzaKlszVJjssV43-fwbeXb2N8eYf/view?usp=drive_link" target="_blank">Xem sản phẩm</a>
+
+<div class="evidence">
+<h4>Minh chứng thực hiện</h4>
+<div class="evidence-grid">
+<div class="placeholder">Ảnh minh chứng 1</div>
+<div class="placeholder">Ảnh minh chứng 2</div>
+<div class="placeholder">Ảnh minh chứng 3</div>
+</div>
+</div>
+</div>
+
+<div class="project">
+<h3>Bài 4: Giao tiếp và hợp tác trong môi trường số</h3>
+<p>Mô tả ngắn về nội dung bài học và sản phẩm thực hiện.</p>
+<a class="btn" href="https://drive.google.com/file/d/1LmUjtoCZ4_-n6r3mWlKnI1mP1iR4P2ia/view?usp=drive_link" target="_blank">Xem sản phẩm</a>
+
+<div class="evidence">
+<h4>Minh chứng thực hiện</h4>
+<div class="evidence-grid">
+<div class="placeholder">Ảnh minh chứng 1</div>
+<div class="placeholder">Ảnh minh chứng 2</div>
+<div class="placeholder">Ảnh minh chứng 3</div>
+</div>
+</div>
+</div>
+
+<div class="project">
+<h3>Bài 5: Sáng tạo nội dung số</h3>
+<p>Mô tả ngắn về nội dung bài học và sản phẩm thực hiện.</p>
+<a class="btn" href="https://drive.google.com/file/d/1tC4aUiXyVCvzY6u4-yxjo3NNYMVKg9bP/view?usp=drive_link" target="_blank">Xem sản phẩm</a>
+
+<div class="evidence">
+<h4>Minh chứng thực hiện</h4>
+<div class="evidence-grid">
+<div class="placeholder">Ảnh minh chứng 1</div>
+<div class="placeholder">Ảnh minh chứng 2</div>
+<div class="placeholder">Ảnh minh chứng 3</div>
+</div>
+</div>
+</div>
+
+<div class="project">
+<h3>Bài 6: An toàn và liêm chính học thuật</h3>
+<p>Mô tả ngắn về nội dung bài học và sản phẩm thực hiện.</p>
+<a class="btn" href="https://drive.google.com/file/d/12uyU_XDLNQ9BI8lq7wxPqTKTF-6xdeh5/view?usp=drive_link" target="_blank">Xem sản phẩm</a>
+
+<div class="evidence">
+<h4>Minh chứng thực hiện</h4>
+<div class="evidence-grid">
+<div class="placeholder">Ảnh minh chứng 1</div>
+<div class="placeholder">Ảnh minh chứng 2</div>
+<div class="placeholder">Ảnh minh chứng 3</div>
+</div>
+</div>
+</div>
+
+</section>
+
+<section id="tongket">
+<h2>Tổng kết</h2>
+<p>Tôi đã nâng cao kỹ năng sử dụng công nghệ số, AI và làm việc với các công cụ học tập hiện đại.</p>
+</section>
+
+<footer id="lienhe"> Nguyễn Thu Uyên Portfolio</footer>
+</body>
+</html>
